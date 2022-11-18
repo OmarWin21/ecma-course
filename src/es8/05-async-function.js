@@ -14,3 +14,13 @@ const anotherFn = async () => {
 console.log('Before');
 anotherFn()
 console.log('After');
+
+const fn1 = () => {
+    console.log(2+3)
+}
+
+const fn2 = () => {
+    console.log('2+7')
+}
+
+fn2()
